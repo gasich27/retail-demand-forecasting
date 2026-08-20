@@ -7,3 +7,11 @@ venv/
 .DS_Store
 Thumbs.db
 catboost_info/
+
+# Ignore new notebook images, but keep README illustrations
+/*.png
+!/Frame 764.png
+!/output.png
+!/1.png
+!/2.png
+!/3.png
