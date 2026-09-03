@@ -231,14 +231,15 @@ Validation WAPE после tuning:
 Это ожидаемо для recursive forecasting: ошибки предыдущих predictions постепенно попадают в признаки следующих дней.
 
 <p align="center">
-  <img src="output.png" alt="WAPE по горизонту прогноза" width="90%">
+  <img src="https://raw.githubusercontent.com/gasich27/retail-demand-forecasting/27227baad892a9f16062d0fb2f39ffb932435a59/output.png" alt="WAPE по горизонту прогноза" width="90%">
 </p>
 
 Также модель нормально ловит общий уровень спроса, но часто сглаживает резкие пики и провалы.
 
 <p align="center">
-  <img src="1.png" alt="Actual vs Predicted" width="90%">
+  <img src="https://raw.githubusercontent.com/gasich27/retail-demand-forecasting/27227baad892a9f16062d0fb2f39ffb932435a59/1.png" alt="Actual vs Predicted" width="90%">
 </p>
+На последнем графике можем наблюдать случай, когда товар уже не продавался, поэтому ошибка prediction столь велика, это проблема, которуя будет решаться в будущем. 
 
 ---
 ---
@@ -260,8 +261,8 @@ SHAP показал, что модель в основном опирается 
 То есть сильнее всего на прогноз влияет спрос предыдущего дня и недавний уровень продаж.
 
 <p align="center">
-  <img src="2.png" alt="SHAP beeswarm" width="48%">
-  <img src="3.png" alt="SHAP dependence plot" width="48%">
+  <img src="https://raw.githubusercontent.com/gasich27/retail-demand-forecasting/27227baad892a9f16062d0fb2f39ffb932435a59/2.png" alt="SHAP beeswarm" width="48%">
+  <img src="https://raw.githubusercontent.com/gasich27/retail-demand-forecasting/27227baad892a9f16062d0fb2f39ffb932435a59/3.png" alt="SHAP dependence plot" width="48%">
 </p>
 
 ---
@@ -314,4 +315,4 @@ notebooks/build_model.ipynb
 ---
 ---
 
-![alt text](<Frame 764.png>)
+![Retail Demand Forecasting](https://raw.githubusercontent.com/gasich27/retail-demand-forecasting/27227baad892a9f16062d0fb2f39ffb932435a59/Frame%20764.png)
